@@ -1,2 +1,2 @@
 # LTGameLocalGoogle
-[![](https://jitpack.io/v/muyishuangfeng/LTGameLocalFacebook.svg)](https://jitpack.io/#muyishuangfeng/LTGameLocalFacebook)
+[![](https://jitpack.io/v/muyishuangfeng/LTGameLocalGoogle.svg)](https://jitpack.io/#muyishuangfeng/LTGameLocalGoogle)
