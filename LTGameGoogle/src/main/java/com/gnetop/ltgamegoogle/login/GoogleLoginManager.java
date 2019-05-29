@@ -40,8 +40,8 @@ public class GoogleLoginManager {
 
 
     public static void onActivityResult(int requestCode, Intent data, int selfRequestCode,
-                                        Context context, String LTAppID, int packageID,
-                                        String LTAppKey, String adID, OnLoginSuccessListener mListener) {
+                                        Context context, String LTAppID, String LTAppKey,
+                                        String adID,String packageID, OnLoginSuccessListener mListener) {
         if (requestCode == selfRequestCode) {
             Task<GoogleSignInAccount> task = GoogleSignIn.getSignedInAccountFromIntent(data);
             if (!TextUtils.isEmpty(adID)) {
@@ -53,7 +53,7 @@ public class GoogleLoginManager {
 
     private static void handleSignInResult(Context context, String LTAppID,
                                            String LTAppKey, String adID,
-                                           int packageID,
+                                           String packageID,
                                            @NonNull Task<GoogleSignInAccount> completedTask,
                                            OnLoginSuccessListener mListener) {
         try {
